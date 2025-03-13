@@ -35,6 +35,18 @@ nav a {
 }
 nav ul {
     list-style: none;
+    margin: 0px;
+    padding: 0px;
+    font-size: 1.2em;
+}
+:link {
+    color:#00664d;
+}
+:visited {
+    color: #7a7a52;
+}
+:hover {
+    color:#ffffff;
 }
 main {
     padding-top: 1px;
@@ -58,7 +70,7 @@ h2 {
 h3 {
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
-ul {
+main ul {
     list-style-image: url(assets/marker.gif);
 }
 dt {
@@ -79,6 +91,8 @@ footer {
     font-size: 75%;
     font-style: italic;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 190px;
+    background-color: #ffffff;
 }
 #contact {
     font-size: 90%;
